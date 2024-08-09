@@ -1,10 +1,10 @@
 # Teach and Repeat
 
-This package uses the *teach and repeat* technique to teach a certain path while the operator drives the logistics vehicle and then repeats the path autonomously. See below how you can test the package.
+This package uses the *teach and repeat* technique to teach a certain path while the operator teleoperating the robot and then repeats the path autonomously. See below how you can test the package.
 
 ## Dependencies
 - Ubuntu;
-- [ROS Humble;](https://docs.ros.org/en/humble/Installation.html)
+- [ROS Humble](https://docs.ros.org/en/humble/Installation.html)
 
 ## Preparing the package
 
@@ -20,12 +20,7 @@ cd ~/colcon_ws/src
 
 Clone this package:
 ```
-git clone --recurse-submodules --remote-submodules https://github.com/lognav4-0/freedom_navigation
-```
-
-Also, clone the package freedom_vehicle in the src folder:
-```
-https://github.com/lognav4-0/freedom_vehicle
+git clone https://github.com/jardeldyonisio/teach_and_repeat
 ```
 
 Compile the package:
