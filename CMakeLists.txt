@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(freedom_navigation)
+project(teach_and_repeat)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
@@ -23,13 +23,13 @@ install(
   scripts/compare_paths.py
   scripts/compress_data.py
   scripts/calculate_erro.py
-  scripts/view_path_coords.py
-  scripts/teach_path_coords.py
+  nodes/view_path_coords.py
+  nodes/teach_path_coords.py
   scripts/compare_paths_two.py
   scripts/points_at_interval.py
-  scripts/repeat_path_coords.py
+  nodes/repeat_path_coords.py
   scripts/generate_lookahead.py
-  scripts/repeat_bezier_path.py
+  nodes/repeat_bezier_path.py
   scripts/save_coords_to_file.py
   scripts/generate_bezier_curve.py
   scripts/read_coords_from_file.py
