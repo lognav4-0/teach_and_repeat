@@ -44,3 +44,10 @@ To repeat the path using the Bézier curve-based method:
 ```
 ros2 run freedom_vehicle repeat_bezier_path.py
 ```
+
+## TODO
+
+- Launch
+- Parâmetro para definir o tipo de robô
+- Parâmetros de configuração (distância entre rodas e etc)
+- Definir se é frame map ou odom (se vai considerar ou não o mapa)
